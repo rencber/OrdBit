@@ -1,0 +1,14 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/app/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# Ordbit vocabulary builder — generated files
+/tools/kelly_checkpoint.json
+/tools/__pycache__/

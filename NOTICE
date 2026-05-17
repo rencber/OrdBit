@@ -1,0 +1,54 @@
+Ordbit — third-party data attribution
+=====================================
+
+The Ordbit application source code is licensed under the MIT License
+(see the LICENSE file).
+
+The bundled vocabulary data — app/src/main/assets/vocab.json — is NOT original
+to this project. It is derived from the two free, openly licensed resources
+listed below. The build scripts in the tools/ folder are what generate
+vocab.json from these sources.
+
+If you publish, distribute, or modify Ordbit, keep this attribution intact.
+
+
+1. Swedish Kelly-list
+---------------------
+Used for: the word list and the CEFR level (A1–C2) of each word.
+
+The Swedish Kelly-list is a CEFR-graded list of high-frequency Swedish
+vocabulary, created at the University of Gothenburg (Språkbanken) as part of
+the KELLY project. It is openly licensed under a Creative Commons license.
+
+The list is accessed in this project via the dataset published at:
+  https://github.com/codesue/kelly
+
+Reference:
+  Volodina, E. & Kokkinakis, S. J. (2012). Introducing the Swedish Kelly-list,
+  a new lexical e-resource for Swedish. LREC 2012.
+
+
+2. Folkets lexikon (the People's Dictionary)
+--------------------------------------------
+Used for: the English translations and example sentences.
+
+Folkets lexikon is a free Swedish–English dictionary hosted by KTH Royal
+Institute of Technology. The dictionary data is released under the
+Creative Commons Attribution-ShareAlike 2.5 Generic license (CC BY-SA 2.5).
+  https://creativecommons.org/licenses/by-sa/2.5/
+
+Source:
+  https://folkets-lexikon.csc.kth.se/folkets/
+
+
+Note on CC BY-SA
+----------------
+Folkets lexikon is licensed under CC BY-SA, which is a "share-alike" license.
+This means the bundled vocabulary data (vocab.json), as a derivative of that
+dictionary, should itself be shared under the same CC BY-SA terms. The
+share-alike requirement applies to the vocabulary DATA — not to the Kotlin
+application code, which remains under the MIT License.
+
+This project is an independent, non-commercial language-learning app and is
+not affiliated with or endorsed by the University of Gothenburg, KTH, or the
+maintainers of the resources above.
